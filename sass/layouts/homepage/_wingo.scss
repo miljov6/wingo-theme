@@ -1,0 +1,10 @@
+     
+          #more{
+        cursor: pointer;
+        &:before{
+            content: url("./icons/plus.svg");
+        }
+      }
+      .more {
+        display: none;
+      }

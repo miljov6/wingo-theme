@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["_posts-and-pages.scss"],"sourcesContent":[".sticky {\n\tdisplay: block;\n}\n\n.post,\n.page {\n\tmargin: 0;\n}\n\n.updated:not(.published) {\n\tdisplay: none;\n}\n\n.page-content,\n.entry-content,\n.entry-summary {\n\tmargin: 1.5em 0 0;\n}\n\n.page-links {\n\tclear: both;\n\tmargin: 0 0 1.5em;\n}\n"],"file":"_posts-and-pages.css"}

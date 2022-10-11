@@ -1,0 +1,60 @@
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("./fonts/HelveticaNeue.ttc");
+	font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+}
+
+
+h1{	
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 80px;
+	@media screen and (max-width: 768px) {
+		font-size: 12vw;
+	}
+}
+
+h2 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 50px;
+	color: #000000;
+	font-weight: 500;
+}
+
+h3 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	line-height: 30px;
+	color: #000000;
+	font-weight: 500;
+}
+
+h4 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 21px;
+	line-height: 23px;
+	color: #000000;
+	font-weight: 500;
+}
+
+p {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 500;
+}
+
+a {	
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+	text-decoration: none;
+}

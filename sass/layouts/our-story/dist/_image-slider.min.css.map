@@ -1,0 +1,1 @@
+{"version":3,"sources":["_image-slider.scss"],"names":[],"mappings":"AAAA,YACE,WAAY,OACZ,WAAY","file":"_image-slider.min.css","sourcesContent":[".img-slider {\n    text-align: center;\n    text-align: -webkit-center;\n}"]}

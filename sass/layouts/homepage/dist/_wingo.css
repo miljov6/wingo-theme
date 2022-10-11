@@ -1,0 +1,13 @@
+#more {
+  cursor: pointer;
+}
+
+#more:before {
+  content: url("./icons/plus.svg");
+}
+
+.more {
+  display: none;
+}
+
+/*# sourceMappingURL=_wingo.css.map */

@@ -1,0 +1,1 @@
+{"version":3,"sources":["_wingo.scss"],"names":[],"mappings":"AAAA,MACE,OAAQ,QAGV,aACE,QAAS,oBAGX,MACE,QAAS","file":"_wingo.min.css","sourcesContent":["     \n          #more{\n        cursor: pointer;\n        &:before{\n            content: url(\"./icons/plus.svg\");\n        }\n      }\n      .more {\n        display: none;\n      }"]}

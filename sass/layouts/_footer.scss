@@ -1,0 +1,100 @@
+.site-footer {
+  background: #f9f9f9;
+  .line-or {
+    display: grid;
+    grid-template-columns: 7fr 12fr;
+    background: #fff;
+    width: 100%;
+    height: 12px;
+    div:first-child {
+      background-color: #f45d05;
+    }
+  }
+
+  .container-fluid {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .container {
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 0 10vw;
+    @media screen and (max-width: 768px) {
+      max-width: 100vw;
+      padding: 0 1vw;
+    }
+
+    .footer-menus {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      @media screen and (max-width: 768px) {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+    .footer-1 {
+      border-left: 1px solid #e5e5e5;
+      padding: 112px 33px;
+      @media screen and (max-width: 768px) {
+        padding: 2vh 3vw;
+      }
+    }
+    .footer-2 {
+      border-left: 1px solid #e5e5e5;
+      padding: 112px 0;
+      @media screen and (max-width: 768px) {
+        padding: 2vh 3vw;
+      }
+    }
+    .footer-3 {
+      border-left: 1px solid #e5e5e5;
+      border-right: 1px solid #e5e5e5;
+      padding: 112px 33px;
+      display: flex;
+      gap: 20px;
+      @media screen and (max-width: 768px) {
+        padding: 2vh 3vw;
+      }
+      a {
+        transition: 0.4s;
+        &:hover {
+          transform: scale(1.03);
+        }
+      }
+    }
+
+    #menu-footer-menu {
+      display: grid;
+      column-gap: 20px;
+      grid-template-columns: 1fr 1fr;
+      width: 100%;
+      margin: 0;
+      li {
+        list-style: none;
+      }
+      @media screen and (max-width: 768px) {
+        grid-template-columns: none;
+        padding: 0;
+      }
+    }
+  }
+  .supported {
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 2vh 13vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 55px;
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+    @media screen and (max-width: 768px) {
+      grid-template-columns: repeat(1, 1fr);
+      padding: 2vh 2vw;
+    }
+    p {
+      margin: 0;
+      font-size: 15px;
+    }
+  }
+}

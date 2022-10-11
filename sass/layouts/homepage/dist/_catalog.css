@@ -1,0 +1,26 @@
+.catalog {
+  padding: 60px 90px;
+  text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  .catalog {
+    padding: 30px 20px;
+  }
+}
+
+.catalog a {
+  position: relative;
+  width: fit-content;
+  font-size: 25px;
+}
+
+.catalog a:before {
+  content: url("./icons/download.svg");
+  position: absolute;
+  top: 0;
+  right: 100%;
+  margin-right: 5px;
+}
+
+/*# sourceMappingURL=_catalog.css.map */

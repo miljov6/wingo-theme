@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["_image-slider.scss"],"sourcesContent":[".img-slider {\n    text-align: center;\n    text-align: -webkit-center;\n}"],"file":"_image-slider.css"}

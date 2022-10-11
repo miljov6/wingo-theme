@@ -1,0 +1,19 @@
+.catalog {
+  padding: 60px 90px;
+  text-align: right;
+  @media screen and (max-width: 768px) {
+    padding: 30px 20px;
+  }
+  a {
+    position: relative;
+    width: fit-content;
+    font-size: 25px;
+    &:before {
+      content: url("./icons/download.svg");
+      position: absolute;
+      top: 0;
+      right: 100%;
+      margin-right: 5px;
+    }
+  }
+}
